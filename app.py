@@ -87,7 +87,7 @@ def get_anxiety_level(score):
 st.sidebar.title("導航 Guide")
 page = st.sidebar.radio(
     "請選擇頁面：",
-    ["首頁 Home", "自我檢測 Self-Testing", "智慧建議 AI Suggestions", "機構專區 Link to Institutions"],
+    ["首頁Home", "自我檢測Self-Testing", "智慧建議AI Suggestions", "機構專區Link to Institutions"],
     index=0
 )
 
