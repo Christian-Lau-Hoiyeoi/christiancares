@@ -84,16 +84,16 @@ def get_anxiety_level(score):
     else: return "重度焦慮"
 
 # ----------------------------- 页面导航 -----------------------------
-st.sidebar.title("導航 Guide")
+st.sidebar.title("🧭 導航")
 page = st.sidebar.radio(
     "請選擇頁面：",
-    ["首頁Home", "自我檢測Self-Testing", "智慧建議AI Suggestions", "機構專區Link to Institutions"],
+    ["🏠 首頁", "📋 自我檢測", "🤖 AI 智慧建議", "🏥 機構專區"],
     index=0
 )
 
 # ----------------------------- 首页 -----------------------------
 if page == "🏠 首頁":
-    st.title("✨心靈守護者✨")
+    st.title("🧠 心靈守護者")
     st.subheader("為懷疑自身精神健康出現變化的您，提供科學化的早期支援")
     
     st.markdown("""
@@ -341,4 +341,4 @@ elif page == "🏥 機構專區":
 
 # ----------------------------- 页脚 -----------------------------
 st.sidebar.markdown("---")
-st.sidebar.caption("© 2026心靈守護者 | 僅供參考，非醫療用途")
+st.sidebar.caption("© 2025 心靈守護者 | 僅供參考，非醫療用途")
